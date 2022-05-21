@@ -3,14 +3,14 @@
 // Licensed under MIT Open Source
 
 @import "global";
-
+@import "_01_settings_colors.scss";
 //
 // Breadcrumb Variables
 //
 $include-html-nav-classes: $include-html-classes !default;
 
 // We use this to set the background color for the breadcrumb container.
-$crumb-bg: scale-color($secondary-color, $lightness: 55%) !default;
+$crumb-bg: $ci-5 !default;
 
 // We use these to set the padding around the breadcrumbs.
 $crumb-padding: rem-calc(9 14 9) !default;
@@ -25,8 +25,8 @@ $crumb-radius: $global-radius !default;
 
 // We use these to set various text styles for breadcrumbs.
 $crumb-font-size: rem-calc(11) !default;
-$crumb-font-color: $primary-color !default;
-$crumb-font-color-current: $oil !default;
+$crumb-font-color: $ci-1 !default;
+$crumb-font-color-current: $ci-4 !default;
 $crumb-font-color-unavailable: $aluminum !default;
 $crumb-font-transform: uppercase !default;
 $crumb-link-decor: underline !default;
@@ -50,7 +50,7 @@ $crumb-slash: "/" !default;
   border-width: $crumb-border-size;
 
   // We control which background color and border come through.
-  background-color: $crumb-bg;
+  background-color: $ci-5;
   border-color: $crumb-border-color;
 }
 

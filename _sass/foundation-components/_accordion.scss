@@ -3,6 +3,7 @@
 // Licensed under MIT Open Source
 
 @import "global";
+@import "_01_settings_colors";
 
 //
 // @variables
@@ -11,15 +12,15 @@
 $include-html-accordion-classes: $include-html-classes !default;
 
 $accordion-navigation-padding: rem-calc(16) !default;
-$accordion-navigation-bg-color: $silver !default;
+$accordion-navigation-bg-color: $ci-5 !default;
 $accordion-navigation-hover-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -5%) !default;
 $accordion-navigation-active-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -3%) !default;
-$accordion-navigation-font-color: $jet !default;
+$accordion-navigation-font-color: $ci-1 !default;
 $accordion-navigation-font-size: rem-calc(16) !default;
 $accordion-navigation-font-family: $body-font-family !default;
 
 $accordion-content-padding: ($column-gutter/2) !default;
-$accordion-content-active-bg-color: $white !default;
+$accordion-content-active-bg-color: $ci-5 !default;
 
 
 //  Mixin: accordion-container()

@@ -1,14 +1,14 @@
 ---
 layout: page
 show_meta: false
-title: "Design Considerations"
-subheadline: "Views"
+title: "Power BI"
+subheadline: "Outcomes"
 header:
-   image_fullwidth: "leh4.jpg"
-permalink: "/design/"
+   image_fullwidth: "leh2.jpg"
+permalink: "/power-bi/"
 ---
 <ul>
-    {% for post in site.categories.design %}
+    {% for post in site.categories.power-bi %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>

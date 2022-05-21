@@ -8,18 +8,11 @@ header:
    image_fullwidth  : "lon1.jpg"
 permalink           : "/about/"
 ---
-1. Open `_config.yml` and work it through, it's well documented.
-1. Add your own `logo.png` to `/assets/img/`.
-1. Add your own social media links and open `_data/socialmedia.yml`.
-1. Open `_sass/_01_settings_colors.scss` and adjust the the colors to your taste.
-1. Ccustomize your navigation and open `_data/navigation.yml`.
-1. Translate this theme and open `_data/language.yml`.
-1. Change the links in the footer and open `_data/services.yml` and `_data/network.yml`.
-1. Open `_data/authors.yml` and edit author information and set default author in `config.yml`.
-1. Make it yours and add your own content.
-1. [Read the documentation][1] to check out all features of *Feeling Responsive*.
+Long ago, I was curious about investment finance, so I went ahead and learned about it, and began applying what I learned. Part of that work required analysing data. Lots of it, and frequently. Often, Excel and Bloomberg/Reuters were enough. Yet, I felt my life slipping away, wasting time copy-pasting data from once place to another. I needed a programmatic approach, so I then went ahead and learned data analytics. This has led me to working with Prepay Power as a Data Analyst.
 
-<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
+The downside is I am never able to sit back and say, “This is it! I have learned everything I need.” I want to share my personal projects on the web, so others can access and benefit from it. It is not enough to just host the code on GitHub. I need to be able to demonstrate it and talk through it as well, all with minimal overheads. So now I am learning about web development and hosting static websites, Jekyll, Hugo… I might just end up re-inventing the wheel.
 
+Paula Scher resonated my drive perfectly: “I’m driven by the hope that I haven’t made my best work yet.”
+My key offering as a Data Analyst is my ability to translate business problems into code the computers can understand. This is probably because of my education in business and finance, although I do not have the data to support that claim. I cherish witnessing people from different departments come together to overcome business challenges.
 
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
+Outside of work, I enjoy keeping fit, volunteering, and mentoring. The things I am capable of today are the result of the generosity of those who came before me, and I want to pay that forward as best I can.
